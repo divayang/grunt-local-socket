@@ -2,9 +2,15 @@
   "name": "grunt-local-socket",
   "description": "A socket.io simulated-server just for local development",
   "version": "0.0.1",
+  "homepage": "https://github.com/divayang/grunt-local-socket",
   "author": {
-    "name": "danyfyang"
+    "name": "divayang",
+    "email": "diva83@163.com"
   },  
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/divayang/grunt-local-socket.git"
+  },
   "engines": {
     "node": ">= 0.8.0"
   },
