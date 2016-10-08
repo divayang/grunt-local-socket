@@ -6,7 +6,7 @@
   "author": {
     "name": "divayang",
     "email": "diva83@163.com"
-  },  
+  },    
   "repository": {
     "type": "git",
     "url": "git://github.com/divayang/grunt-local-socket.git"
@@ -15,6 +15,12 @@
   "engines": {
     "node": ">= 0.8.0"
   },
+  "keywords": [
+    "grunt",
+    "task",
+    "local",
+    "socket"
+  ],
   "scripts": {
     "test": "grunt localSocket"
   },
