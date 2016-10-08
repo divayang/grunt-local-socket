@@ -1,7 +1,7 @@
 {
   "name": "grunt-local-socket",
   "description": "A socket.io simulated-server just for local development",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/divayang/grunt-local-socket",
   "author": {
     "name": "divayang",
