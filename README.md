@@ -13,7 +13,7 @@ npm install grunt-local-socket --save-dev
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('localSocket');
+grunt.loadNpmTasks('grunt-local-socket');
 ```
 
 ## The "localSocket" task
