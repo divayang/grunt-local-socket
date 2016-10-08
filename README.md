@@ -59,13 +59,13 @@ Type: `String` or `Function`
 Default value: `''`
 
 This param is used to composite a simulated-response by the socket.io server. 
-Use string value to indicate the script file you composited, or directly write an annomynous function with the passed-arguments which refers to the socket.io instance, and then do whatever you like.
+Use string value to indicate the script file you composited, or directly write an anonymous function with the passed-arguments which refers to the socket.io instance, and then do whatever you like.
 
 
 ### Usage Examples
 
 #### Default Options
-In this example, use default options with a annomynous function as the serverScript.
+In this example, use default options with a anonymous function as the serverScript.
 
 ```js
 grunt.initConfig({
