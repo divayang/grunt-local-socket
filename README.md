@@ -128,3 +128,15 @@ module.exports = function(options) {
 };
 ```
 
+#### Run task
+PS:　"grunt localSocket" will just fire the first one in your customized-tasks (for example: `myTask1` in the example above).
+ 
+```shell
+grunt localSocket
+```
+
+Just append ":taksname" to the command like "grunt localSocket:taksname", then task `taksname` will be alive. 
+ 
+```shell
+grunt localSocket:myTask1
+```

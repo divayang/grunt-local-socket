@@ -53,7 +53,7 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-local-socket'); 
 
-  //PS: "grunt localSocket" only fire the last one in Customized-task, 
-  //just append ":taksname" to the command like "grunt localSocket:task1", and get the one you like to fire. 
+  //PS:　"grunt localSocket" will just fire the first one in your customized-tasks (for example: `myTask1` in the example above).
+  //Just append ":taksname" to the command like "grunt localSocket:taksname", then task `taksname` will be alive. 
 
 };
