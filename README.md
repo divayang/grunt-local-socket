@@ -112,6 +112,7 @@ grunt.initConfig({
 Here is the example, simply shows what you could do in your `serverScript` files. 
 
 ```js
+//task1.js
 module.exports = function(options) {
 	var io = options.IO; //Socket.io server instance object
     //demo code which simulates the action on server-side
