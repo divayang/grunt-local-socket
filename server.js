@@ -6,10 +6,11 @@ module.exports = function(options, _grunt){
 	var IO = new SocketServer(options.port),		
 		dir = path.resolve(options.base + options.directory),
 		script = options.serverScript,
-		scriptFile;
+		osSplash = process.platform=='win32'?"\\":"\/";
+		scriptFile;		
 	
 	if(typeof script === 'string'){
-		scriptFile = dir + '\\'+ script;	
+		scriptFile = dir + osSplash + script;	
 		fs.exists(scriptFile, function(exists){	
 			if(exists) {
 				fs.readFile(scriptFile, "utf8", function (error, data){
